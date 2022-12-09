@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+ background-color:black;
+}
+
+h1{
+text-align:center;
+font-size:50px;
+
+color:grey;
+}
+.relative {
+  position: relative;
+  width: 450px;
+  height: 200px;
+  border: 3px solid black;
+  background-color:grey;
+} 
+
+.absolute {
+  position: absolute;
+  right: 0;
+  width: 180px;
+  height: 35px;
+  top:0px;
+  background-color:lightpink;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  text-align:center;
+  font-size:30px;
+}
+.relative1 {
+  position: relative;
+  width: 450px;
+  height: 200px;
+  border: 3px solid black;
+  background-color:grey;
+  bottom:205px;
+  left:475px;
+  
+} 
+
+.absolute1 {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 180px;
+  height: 35px;
+  color:white;
+  background-color:brown;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  text-align:center;
+  font-size:30px;
+}
+
+.relative2 {
+  position: relative;
+  width: 450px;
+  height: 200px;
+  border: 3px solid black;
+  background-color:grey;
+  bottom:410px;
+  left:950px;
+  
+} 
+
+.absolute2 {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 180px;
+  height: 35px;
+  background-color:orange;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  text-align:center;
+  font-size:30px;
+}
+
+p{
+padding:25px;
+color:black
+}
+
+
+
+@media (min-width:992px) and (max-width:1199px){
+
+
+@media (min-width:768px) and (max-width:991px){
+.relative1{
+width:50%
+}
+.relative2{
+width:100px;
+height:50px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .relative, .relative1, .relative2 {
+    width: 100%;
+
+
+
+</style>
+</head>
+<body>
+
+<h1> <i> Menu </i> </h1>
+
+
+<div class="relative" ><p> <b> IceCream is a mixture of milk, cream, sugar, and sometimes other ingredients that has been frozen into a soft, creamy delight using special techniques. Ice cream has been a popular treat for hundreds of years but has only become commonplace since the widespread use of refrigeration. The exploding popularity of ice cream has led to a number of ice-cream variations including frozen custard, frozen yogurt.</b></p>
+  <div class="absolute"> <b>IceCream</b></div>
+</div>
+
+<div class="relative1" ><p> <b> Mutton Biriyani Recipe ever! Prepared with atmost care and love, this Mutton Biryani holds a regal legacy from the kitchen of Nawabs and Nizams that needs no introduction or special mentions.The beautifully spiced and fragrant layers of biryani rice centred with juicy, tender meat and spices is pure bliss! Let us see how to make this biryani at home.</b></p>
+  <div class="absolute1"> <b>Biriyani</b></div>
+</div>
+
+<div class="relative2" ><p> <b> Apple Juice is a fruit juice made by the maceration and pressing of an apple. The resulting expelled juice may be further treated by enzymatic and centrifugal clarification to remove the starch and pectin, which holds fine particulate in suspension, and then pasteurized for packaging in glass, metal, or aseptic processing system containers, or further treated by dehydration processes to a concentrate.Russet apple juice from Bolney.</b></p>
+  <div class="absolute2"> <b>Apple Juice</b> </div>
+</div>
+
+</body>
+</html>
